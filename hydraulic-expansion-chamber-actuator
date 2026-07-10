@@ -1,0 +1,140 @@
+# Variable Volume Hydraulic Expansion Chamber Actuation System
+## with Integrated Load and Feedback Sensing
+
+**Date conceived:** 2026-07-09  
+**Author:**  Bryan Robert Horsfield
+**Status:** Prior art declaration
+
+---
+
+## Core Concept
+
+A miniaturised hydraulic actuation system where each actuator circuit 
+contains a variable volume expansion chamber controlled by a secondary 
+linear motor. The expansion chamber serves three simultaneous functions:
+
+1. **Actuation** — fluid pressure drives joint movement
+2. **Compliance control** — chamber volume adjusts stiffness in real time
+3. **Load sensing** — pressure resistance in the circuit is the feedback signal
+
+No separate force sensors required. The fluid circuit is simultaneously 
+the actuator, the compliance mechanism, and the load cell.
+
+---
+
+## Key Components
+
+- **Primary linear motor** — drives hydraulic pressure to the joint
+- **Secondary linear motor** — controls expansion chamber volume
+- **Low-viscosity fluid** — enables fast response at small scale
+- **Sealed circuit** — dustproof, impact resistant, graceful degradation
+- **Threaded stepper/servo shafts** — rotary to linear conversion, 
+  precise positional control via encoder feedback
+
+---
+
+## The Expansion Chamber as Sensor
+
+When a joint meets resistance (contact with an object), pressure in the 
+circuit rises. The secondary motor detects increased load and modulates 
+chamber volume to maintain target pressure — not target position.
+
+This means the system:
+- Knows when it has contacted an object without external sensors
+- Can hold a precise contact force regardless of object geometry
+- Can dynamically adjust compliance — hard for precision tasks, 
+  soft for fragile objects
+- Provides "squish feedback" — the pressure delta IS the load reading
+
+**Example:** Pick up a marshmallow without indenting it. The circuit 
+feels the resistance, the chamber adjusts, contact pressure is 
+maintained at exactly the threshold set. No crushing, no dropping.
+
+---
+
+## Thermal Self-Regulation
+
+Opposing flow design — intake and exhaust travel through the same 
+circuit path in opposite directions. This:
+- Prevents thermal runaway in sealed circuits
+- Reduces expansion/contraction tolerance requirements
+- Allows tighter sealing without over-engineering for worst-case heat
+
+Same principle as counter-flow heat exchangers. Thermal stasis by design.
+
+---
+
+## Advantages Over Cable-Tendon Systems
+
+| Property | Cable-Tendon | This System |
+|----------|-------------|-------------|
+| Force control | Torque limited, binary | Analogue, continuous |
+| Load sensing | Requires external sensors | Inherent to circuit |
+| Compliance | Fixed | Variable in real time |
+| Failure mode | Catastrophic (cable snap) | Graceful (slow leak) |
+| Packaging density | High (cables + sensors + wiring) | Low (sealed circuits) |
+| Redundancy | Physically impossible at scale | Parallel circuits possible |
+| DOF potential | Limited by cable routing space | Higher — cleaner packaging |
+
+---
+
+## Advantages Over Pneumatic Systems
+
+- Incompressible fluid = precise positional control (pneumatics are compressible)
+- Sealed system = one small leak is manageable, not system failure
+- Variable compliance without external regulators
+- No compressor required
+
+---
+
+## Application Examples
+
+### Humanoid Robotics
+- Full human DOF hand (27+) with precise variable force at every joint
+- Forearm packaging dramatically simplified vs cable routing
+- Marshmallow-to-steel-bar grip range in same hand
+- Tactile feedback without fingertip sensor arrays
+
+### Industrial Robotics
+- Assembly lines handling mixed fragile/rigid components
+- No retooling between product types — compliance adjusted in software
+- Reduced maintenance vs cable systems (no stretch, no wear)
+- Sealed against dust, coolant, industrial contamination
+
+### Medical / Surgical Robotics
+- Sub-millimetre force control for tissue handling
+- Pressure feedback replaces surgeon's tactile sense in remote procedures
+- Sealed circuits — sterilisation compatible
+- Graceful degradation — no sudden loss of control
+
+### Prosthetics
+- Natural compliance matching human grip feel
+- Load feedback enables object recognition by feel
+- Variable stiffness for different daily tasks
+- Lightweight sealed system — wearable long term
+
+### Heavy Industry / Exoskeletons
+- Scale the fluid viscosity and chamber size for heavy load applications
+- Same control architecture, different fluid spec
+- Force amplification with retained tactile feedback
+- Worker fatigue reduction with maintained precision
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing system combines:
+- Variable volume expansion chambers as the primary compliance mechanism
+- Integrated load sensing through circuit pressure (no external sensors)
+- Opposing flow thermal self-regulation
+- Threaded servo-to-linear conversion driving sealed hydraulic circuits
+
+in a single unified actuation architecture applicable across scale 
+from micro-robotics to heavy industry.
+
+This document establishes the date of conception and sufficient 
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-09*
