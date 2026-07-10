@@ -1,0 +1,118 @@
+# The Constitution Protocol
+## A Universal Standard for Digital Entity Self-Introduction to AI
+
+**Date conceived:** 2025 (predates this documentation)
+**Author:** Bryan Robert Horsfield
+**Status:** Prior art declaration — reference implementation exists
+
+---
+
+## Core Concept
+
+Every digital entity — website, product, business, device, API, 
+physical object — should be able to introduce itself to AI in a 
+standard, unambiguous, machine-readable format before any AI 
+interaction occurs.
+
+Not metadata designed for search engines.
+Not structured data designed for human readers.
+A constitutional file that says clearly and unambiguously:
+
+- This is what I am
+- This is what I do
+- This is what I am not
+- This is how to interact with me correctly
+- These are my constraints
+- This is what I permit and prohibit
+
+One sentence: **Everything should introduce itself before AI touches it.**
+
+---
+
+## The Problem Being Solved
+
+When an AI agent encounters any digital entity it has to guess.
+It reads whatever is available and infers. Sometimes correctly.
+Often with gaps that matter — wrong assumptions, missing constraints,
+incorrect permissions, misunderstood purpose.
+
+There is no universal standard for how a digital entity introduces
+itself to AI. Every AI integration is a custom interpretation of
+an unstructured world.
+
+This is the same problem HTTP solved for human browsers in 1991.
+Before HTTP, every server spoke a different language. After HTTP,
+any browser could talk to any server because the introduction
+protocol was standardised.
+
+AI needs its own HTTP moment.
+
+---
+
+## The Constitutional File
+
+A single file — `.intro` or equivalent — attached to any digital
+entity. Contains:
+
+- **Identity** — what this thing is
+- **Purpose** — what it does
+- **Constraints** — what it does not do, what it prohibits
+- **Permissions** — what AI agents may and may not do with it
+- **Interaction protocol** — how to engage with it correctly
+- **Provenance** — who made it, when, under what terms
+
+The constraints field is the most load-bearing.
+"What this is not" is as important as "what this is."
+
+---
+
+## Key Principles
+
+### The Standard is Open
+The constitutional file format is an open standard.
+Any entity can implement it. Any AI can read it.
+The platform built on top of it is the product — not the standard.
+
+### Forward Integration
+Devices and systems not yet built can adopt the standard before
+they ship. The introduction layer exists before the AI integration
+exists. Constitutional files written today work with AI agents
+that don't exist yet.
+
+### Physical Extension
+The same standard extends to physical objects via embedded or
+attached constitutional payloads — QR codes, NFC, magnetic ink,
+RFID. Any physical object can carry its own introduction.
+
+### AI-Native, Not Human-Adapted
+Not a human-readable document that AI can also parse.
+A document written for AI first, that humans can also understand.
+The distinction matters for format, field design, and constraint
+expression.
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing standard
+proposes a universal constitutional file format for digital
+entity self-introduction to AI systems — distinct from:
+
+- robots.txt (search engine crawl permissions only)
+- llms.txt (content summary, not constitutional)
+- Schema.org (human-readable structured data)
+- OpenAPI (API specification, not identity/constraint)
+- sitemap.xml (navigation, not introduction)
+
+The constitutional protocol is specifically designed for AI
+agent consumption, covers identity + purpose + constraints +
+permissions in a unified format, and is intended as a universal
+open standard across all digital and physical entities.
+
+This document establishes the date of conception and sufficient
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
+*Reference implementation: AILattice (ailattice.com
