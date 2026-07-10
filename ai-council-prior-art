@@ -1,0 +1,149 @@
+# The AI Council
+## Multi-Model Synthesis Architecture for AI-Assisted Decision Making
+
+**Date conceived:** 2025 (predates this documentation)
+**Author:** Bryan Robert Horsfield
+**Status:** Prior art declaration — working implementation exists
+
+---
+
+## Core Concept
+
+A single AI model is a single perspective. One set of training
+assumptions. One tendency. One blind spot.
+
+The most important decisions humans make are not made by one
+person. They are made in rooms — with specialists, challengers,
+researchers, strategists. That structure exists because
+single-perspective decisions are fragile.
+
+The AI Council applies this principle to AI:
+
+Multiple models. Same session. Same context. Each contributing
+what it does best. Synthesis happens in the session — not in
+the user's head.
+
+---
+
+## The Problem Being Solved
+
+Current AI usage pattern:
+- User opens one model
+- Asks a question
+- Gets one perspective
+- Opens another model
+- Re-explains context
+- Gets another perspective
+- Manually synthesises the responses
+
+The user is the integration layer. The user does the work
+the tools were supposed to do.
+
+The AI Council moves synthesis into the session.
+
+---
+
+## The Architecture
+
+### Single Question → Council Session
+
+User submits a task or question once.
+Context is shared across all council members simultaneously.
+No re-briefing. No context loss between models.
+
+### Specialist Roles
+
+Each model in the council has a defined role:
+- **Lead specialist** — primary domain expert, answers first
+- **Analyst** — adds rigour, data, structure
+- **Challenger** — finds what was missed, questions assumptions
+- **Strategist** — sees the broader picture
+- **Researcher** — grounds responses in current information
+
+Roles are assigned by task type, not fixed to models.
+The council composition adapts to what the question requires.
+
+### Sequential Build
+
+Council members see what previous members said.
+Each response builds on the last — not independent parallel
+answers that the user must reconcile, but a genuine
+conversation that arrives at synthesis.
+
+The last response in the chain is the most informed response
+in the session — it has seen everything that came before it.
+
+### Adaptive Depth
+
+Not every question needs the full council.
+Simple question → single agent answers directly, fast.
+Complex question → full council engages, builds, synthesises.
+
+Same interface. Depth adapts to the question automatically.
+
+---
+
+## The Tribe System
+
+Different task types require different council compositions:
+
+- **Decide** — decision-focused specialists, devil's advocate mandatory
+- **Research** — information gathering, source verification, synthesis
+- **Create/Write** — generative specialists, editor, critic
+- **Build** — technical specialists, architecture, security review
+- **Analyse** — data interpretation, pattern recognition, challenge
+
+The tribe is selected by task type. The council assembles
+automatically. The user just asks the question.
+
+---
+
+## File Attachment as Context Layer
+
+Any file — document, code, specification, research paper,
+project brief — can be attached to a council session.
+Every council member has read it before they speak.
+
+No re-uploading per model. No re-explaining context.
+The council is briefed once. Completely.
+
+---
+
+## Key Distinction from Existing Multi-Model Tools
+
+Existing approaches:
+- Show multiple model outputs side by side (user synthesises)
+- Route to different models based on query type (still single model per query)
+- Aggregate responses without specialist roles (no structure)
+
+The AI Council:
+- Sequential build where each model sees previous responses
+- Defined specialist roles adapted to task type
+- Synthesis happens in the session
+- Single context shared across all models
+- Depth adapts automatically to question complexity
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing system
+combines:
+
+- Sequential multi-model build where each model sees
+  previous responses
+- Specialist role assignment adapted by task type (tribe system)
+- Automatic depth adaptation (single agent vs full council)
+- Shared context across all models without re-briefing
+- Synthesis as a session output rather than a user task
+
+in a unified architecture for AI-assisted decision making
+and task completion.
+
+This document establishes the date of conception and sufficient
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
+*Working implementation: AIWarlock (aiwarlock.io)*
