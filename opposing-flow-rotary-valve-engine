@@ -1,0 +1,153 @@
+# Single-Tube Opposing-Flow Rotary Valve Engine
+## with Thermal Self-Regulation and Gear-Ratio Stroke Switching
+
+**Date conceived:** Prior to 2026-07-09 (physical prototype built and tested)
+**Author:** Bryan Robert Horsfield
+**Status:** Prior art declaration — working prototype exists
+
+---
+
+## Core Concept
+
+A rotary valve engine where a single rotating tube replaces all 
+conventional valve train components. Intake and exhaust gases travel 
+through the centre of the same tube in opposing directions, timed by 
+the rotational position of ports cut into the tube walls.
+
+One moving part in the head. No poppet valves, no springs, no camshaft,
+no rockers.
+
+---
+
+## The Tube
+
+A single hollow tube rotates on the combustion axis. Ports are cut into 
+the sides of the tube at calculated angles. As the tube rotates:
+
+- Port alignment with the intake passage = intake open
+- Port alignment with the exhaust passage = exhaust open
+- No alignment = both closed (compression/power stroke)
+
+Intake and exhaust share the same geometric path through the centre of 
+the tube — what determines whether gas enters or exits is purely the 
+rotational timing, not separate physical pathways.
+
+---
+
+## The Opposing Flow Thermal Solution
+
+The fundamental problem with rotary valves has always been sealing under 
+heat. Conventional solutions attempt to solve this with exotic materials 
+or tight tolerances — both expensive and failure-prone.
+
+This design solves it thermodynamically:
+
+- Exhaust gas exits through the tube centre — heats the tube
+- Intake charge enters through the same path — cools the tube
+- The tube reaches thermal equilibrium between intake and exhaust temperatures
+- This equilibrium is predictable and stable — **thermal stasis**
+
+Because the tube never reaches full exhaust temperature, thermal 
+expansion is:
+- Lower in magnitude than conventional exhaust valve exposure
+- Predictable and consistent
+- Designable — tolerances can be set around a known thermal state
+
+The seal works because expansion is controlled by the physics of the 
+design, not fought with materials engineering.
+
+---
+
+## Two/Four Stroke Switching by Gear Ratio
+
+The rotary valve tube is gear-driven from the crankshaft.
+
+- **Two stroke:** tube driven at 1:1 ratio with crank — ports open every 
+  revolution
+- **Four stroke:** tube driven at 1:2 ratio — ports open every second 
+  revolution
+
+No mechanical changes to the engine. No redesign. Same tube, same ports,
+same geometry. Stroke cycle changed entirely by the gear ratio between 
+crank and valve tube.
+
+This is an inherent property of the gear-driven rotary valve architecture
+— not a feature requiring additional engineering.
+
+---
+
+## Prototype
+
+A working single-cylinder prototype has been built and tested:
+
+- Construction: transparent acrylic (for visual verification of internal 
+  operation)
+- Cylinder and piston: sourced from nitro RC engine
+- Valve drive: RC helicopter gear components
+- Bearings: 3mm OD miniature ball bearings throughout
+- Flywheel: counterbalanced clear acrylic disc
+- Power source: fishtank air pump
+- Operating speed: approximately 3500 RPM confirmed
+
+The prototype demonstrates the opposing-flow thermal regulation and 
+single-tube valve timing in operation. Visual construction allows 
+direct observation of all moving components during operation.
+
+A three-cylinder radial variant was also built (subsequently 
+disassembled) where the crankshaft itself served as the rotary valve 
+tube — eliminating the gear drive entirely and making valve timing 
+geometrically locked to piston position (cannot go out of time).
+
+---
+
+## Advantages Over Conventional Poppet Valve Train
+
+| Property | Poppet Valve | This System |
+|----------|-------------|-------------|
+| Moving parts in head | Multiple (valves, springs, rockers, cam) | One (rotating tube) |
+| Thermal sealing challenge | Managed by materials | Solved by opposing flow |
+| Stroke switching | Requires mechanical changes | Gear ratio only |
+| Failure modes | Spring failure, burnt valves, timing | Single rotating component |
+| Manufacturing complexity | High | Low |
+| Transparency/serviceability | Low | High |
+
+---
+
+## The Radial Variant — Crank as Valve
+
+In the three-cylinder radial configuration:
+
+- The crankshaft IS the valve tube
+- Ports cut into the crank at calculated positions serve all three cylinders
+- Valve timing is geometrically impossible to get wrong — crank position 
+  IS valve position
+- Eliminates gear drive entirely
+- Further reduces moving parts
+
+This variant was physically constructed from RC helicopter components 
+and transparent acrylic using hand tools. Not completed to running 
+condition due to manufacturing precision limits of hand tools, but 
+mechanically correct in assembly.
+
+---
+
+## Prior Art Statement
+
+While rotary valve concepts exist in various forms, this specific 
+combination is believed to be novel:
+
+- Intake and exhaust sharing a single central tube path in opposing flows
+- Thermal self-regulation through opposing flow as the primary sealing 
+  strategy (not materials-based)
+- Two/four stroke cycle switching via gear ratio alone
+- Crankshaft-as-valve-tube radial configuration (geometric timing lock)
+
+Physical prototypes exist predating this documentation.
+
+This document establishes the date of documentation and sufficient 
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
+*Physical prototype constructed prior to this date*
