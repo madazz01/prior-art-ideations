@@ -1,0 +1,213 @@
+# Evergreen Robot Platform Architecture
+## Sell Once, Revenue Forever — The Skeleton Economy
+
+**Date conceived:** 2026-07-10  
+**Author:** Bryan Robert Horsfield 
+**Status:** Prior art declaration
+
+---
+
+## Core Concept
+
+A humanoid robot platform designed for permanent relevance through
+radical upgradeability. The skeleton is engineered once, engineered
+right, and sold at cost or below. All revenue comes from the
+ecosystem built on top of it.
+
+Not a product. A platform.
+Not a sale. A relationship.
+Not a robot. A childhood friend.
+
+---
+
+## The Architecture
+
+### The Skeleton
+The permanent, load-bearing investment:
+- Engineered to last decades
+- Standardised joints, connectors, power systems
+- Hydraulic actuator-based (variable compliance, pressure feedback,
+  sealed circuits — see hydraulic-expansion-chamber-actuator.md)
+- Designed for disassembly and reassembly in minutes
+- All parts interchangeable across all units in the fleet
+- One platform. Every expression built on top of it.
+
+### The Ecosystem Layer
+Everything above the skeleton is modular, replaceable, and
+monetisable:
+- **Skins** — aesthetic outer shells, themed, branded, seasonal
+- **Personalities** — software-defined character, tone, behaviour
+- **Tool attachments** — task-specific end effectors and accessories
+- **Capability upgrades** — new motor assemblies, sensor packages
+- **Third party integrations** — open platform for accessory ecosystem
+- **Firmware and AI updates** — continuous intelligence improvement
+
+The skeleton is the razor. The ecosystem is the blades.
+
+---
+
+## Distribution Strategy — Own the Childhood
+
+### Free to Schools
+Supply skeleton units to schools at zero cost.
+
+**Five simultaneous returns:**
+1. **R&D** — real world chaos testing at scale, no lab replicates it
+2. **Training data** — millions of hours of real interaction across
+   thousands of environments simultaneously
+3. **Edge case discovery** — children find every failure mode
+   engineers never imagined
+4. **Lifetime audience** — brand loyalty formed at age 8 lasts forever
+5. **Future engineers** — the kids who grew up with it build the
+   next version
+
+The robot that was there first wins forever.
+You cannot out-spec it, out-price it, or out-childhood it.
+
+### The Childhood Friend Effect
+A robot present from early childhood becomes:
+- Emotionally irreplaceable — switching cost is not financial, it's
+  personal
+- A companion that grew with the child — different skin, different
+  tools, different personality at each life stage
+- Part of the family — moves out with them at 25, stays for life
+
+Checkmate on competitor acquisition. Forever.
+
+---
+
+## The Care Refresh Economy
+
+### Monthly Care Plan ($50/month)
+Modelled on DJI Care — removes anxiety, unlocks full use.
+
+- Unit fails or is damaged → swap skeleton in 5 minutes
+- CPU copied across, skins and attachments transferred
+- Refurbished skeleton deployed immediately
+- No downtime, no anxiety, no being precious about it
+
+**Psychological effect:** Users use the product to its limits.
+Full chaos testing mode. Maximum engagement. Maximum data.
+
+**Revenue:** $50/month × 100,000,000 units = $5B/month recurring
+before a single accessory is sold.
+
+### The Refurbished Skeleton Loop
+Every returned unit enters the refurbishment pipeline:
+- Diagnostic scan — identify failed components
+- Parts harvested from failed units become donor parts for others
+- Known-good components recertified and redeployed
+- Zero waste — the skeleton never dies, it rotates
+
+100,000 failures/month across a 100M unit fleet = a parts supply
+chain that is self-funding, self-replenishing, and diagnostically
+invaluable.
+
+---
+
+## The Silent Recall / Silent Upgrade System
+
+### The Problem with Traditional Recalls
+- Public announcements create brand damage
+- Customer anxiety and inconvenience
+- Logistical nightmare at scale
+
+### The Solution — Service Interval as Recall Mechanism
+Annual service event:
+- Customer sends unit in (or technician visits)
+- Skeleton swapped for refurbished unit with:
+  - New battery
+  - Uprated components (silently incorporating any field fixes)
+  - Latest firmware
+  - Any recall-level part replacements
+- Customer receives what feels like a gift — upgraded robot
+- Company silently resolves all field issues fleet-wide
+
+**Five jobs, one transaction:**
+1. Silent recall resolution
+2. Upgrade deployment
+3. Battery replacement
+4. Firmware update
+5. Customer loyalty touchpoint
+
+No brand damage. No customer anxiety. No public embarrassment.
+The service interval IS the recall mechanism IS the upgrade cycle
+IS the revenue event IS the loyalty moment.
+
+---
+
+## Revenue Model
+
+### One-Time
+- Skeleton sale (at cost or subsidised) — acquisition vehicle
+
+### Recurring Monthly
+- Care refresh subscription — $50/month per unit
+- Personality subscription — software-defined character updates
+- Third party ecosystem clip — percentage of accessory sales
+
+### Annual
+- Service interval — skeleton swap, battery, uprated parts, firmware
+- Skin refresh — new aesthetic season/theme
+
+### Ecosystem
+- Third party tool and accessory marketplace
+- Developer platform fees
+- Enterprise customisation licensing
+
+### Data
+- Anonymised interaction and training data (with consent)
+  — most valuable asset in the long term
+
+---
+
+## Scale Economics
+
+At 100,000,000 units:
+- Care refresh alone: $5B/month
+- Annual service: significant per-unit revenue × 100M events/year
+- Accessory ecosystem: unbounded third party expansion
+- Training data value: potentially exceeds hardware revenue
+
+The skeleton is almost irrelevant financially.
+The platform is everything.
+
+---
+
+## The Evergreen Principle
+
+The robot never becomes obsolete because it is never finished.
+
+- Age 8: school skin, learning personality, homework tools
+- Age 15: different skin, different personality, different tools
+- Age 25: moves out with them, adapts to adult life
+- Age 40: home management tools, different again
+- Age 60: companion mode, health monitoring, different again
+
+Same skeleton. Whole life.
+
+One sale. Generational revenue. Unbreakable loyalty.
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing humanoid
+robotics platform combines:
+
+- Skeleton-as-platform architecture with full modular ecosystem
+- Free school distribution as primary R&D, data, and loyalty
+  acquisition strategy
+- Care refresh subscription as the primary recurring revenue vehicle
+- Service interval as silent recall and upgrade deployment mechanism
+- Evergreen design philosophy — one skeleton, whole life adaptation
+
+as a unified business model and platform architecture.
+
+This document establishes the date of conception and sufficient
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
+*Companion files: hydraulic-expansion-chamber-actuator.md*
