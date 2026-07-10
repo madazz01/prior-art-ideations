@@ -1,0 +1,157 @@
+# Inertial Experience Training for AI Systems
+## Physical Sensation as Primary AI Training Modality
+
+**Date conceived:** 2026-07-10  
+**Author:** Bryan Robert Horsfield  
+**Status:** Prior art declaration
+
+---
+
+## Core Concept
+
+Current AI training modalities are dominated by language, images, and 
+video. This concept proposes training AI systems on raw inertial sensor 
+data as a primary modality — teaching AI what physical experience 
+*feels like* rather than what it looks like or how it is described.
+
+Strap an inertial measurement unit (IMU) package into any dynamic 
+physical environment — cockpit, rollercoaster, race vehicle, drone, 
+human body — and train AI on the continuous stream of:
+
+- Acceleration vectors (X/Y/Z)
+- Gyroscopic rotation rates
+- G-force magnitude and direction
+- Orientation changes over time
+- Vibration signatures
+- Pressure/altitude delta
+
+The AI learns embodied physics. Not described physics. Not simulated 
+physics. The actual sensory stream of what it is to be inside a 
+physical experience.
+
+---
+
+## The Gap in Current AI Training
+
+Language models learn about G-forces from text descriptions.  
+Vision models learn from video of things moving.  
+Physics simulators approximate real-world behaviour mathematically.
+
+None of these are the same as having *been there* — having the raw 
+sensor record of 10,000 rollercoaster runs, 50,000 FPV drone flights, 
+or a full Formula 1 season of cornering data.
+
+This modality captures what none of the others do: the continuous, 
+high-frequency, multi-axis physical reality of dynamic experience.
+
+---
+
+## Training Data Sources
+
+Any dynamic physical environment becomes a training dataset:
+
+- **Aviation:** cockpit IMU during all flight phases, manoeuvres, 
+  weather events, emergency procedures
+- **Motorsport:** F1, rally, motorcycle — cornering forces, 
+  braking signatures, kerb strikes
+- **FPV/UAV:** race quad flights — 7:1 thrust-to-weight dynamics, 
+  full 3D orientation changes, 0-100kph in under 1 second
+- **Rollercoasters/theme parks:** known, repeatable, extreme G profiles
+- **Human body:** sport, falls, impacts, gait — wearable IMU data
+- **Industrial machinery:** vibration signatures, load cycles, 
+  mechanical stress events
+- **Marine:** wave response, hull dynamics, storm data
+
+---
+
+## Applications
+
+### Anomaly Detection
+An AI trained on 10,000 hours of normal flight *knows* what normal 
+feels like at a sensor level. Deviations from learned inertial 
+signatures flag mechanical issues, structural problems, or abnormal 
+conditions before they become critical.
+
+Not rule-based threshold alerts — genuine learned understanding of 
+normal vs abnormal physical state.
+
+### Predictive Maintenance
+Machinery develops characteristic inertial signatures as components 
+wear. An AI trained on healthy vs degraded equipment learns to 
+detect degradation from vibration and motion data alone — before 
+failure, not after.
+
+### Simulator Fidelity
+Flight simulators, driving simulators, and training systems currently 
+approximate physics mathematically. An AI trained on real inertial 
+data can validate and correct simulator behaviour — "this doesn't 
+feel like the real thing" becomes a trainable, measurable property.
+
+### Autonomous Vehicle Control
+Vehicles that understand physics through inertial experience rather 
+than purely through vision. The system knows what a skid feels like, 
+what aquaplaning feels like, what a tyre blowout feels like — from 
+sensor data, not from rules.
+
+### Human Performance and Safety
+Wearable IMU training data from elite athletes — the AI learns what 
+peak human physical performance looks like at a sensor level. 
+Applications in coaching, injury prevention, rehabilitation, and 
+detecting falls or medical events in real time.
+
+### Robotics
+Robots trained on inertial data from human movement learn natural 
+motion patterns — not programmed trajectories but the actual 
+physics of how humans move through space. Combines naturally with 
+the hydraulic expansion chamber actuator system (see separate file) 
+where circuit pressure IS the inertial feedback.
+
+---
+
+## Key Distinction from Existing Work
+
+Inertial data exists in:
+- Flight data recorders (black boxes) — collected but not used as 
+  AI training modality
+- IMU logging in research — used for specific task analysis
+- Physics simulation — mathematical approximation, not real data
+
+**What does not appear to exist:**
+Training an AI on raw continuous multi-axis inertial data streams 
+as a *primary modality* — equivalent in scope and intent to how 
+language models are trained on text — to develop generalised 
+understanding of physical experience across domains.
+
+The modality itself is the novelty. Not the sensors. Not the data. 
+The training approach that treats inertial experience as a 
+first-class input equivalent to language or vision.
+
+---
+
+## Implementation Notes
+
+- Consumer-grade IMU packages (MPU-6050 etc) sufficient for 
+  proof of concept
+- High-frequency logging (1kHz+) captures full dynamic range
+- Multi-sensor fusion (IMU + barometer + magnetometer) for 
+  complete spatial picture
+- Dataset labelling: environment type, event markers, outcome data
+- Training architecture: time-series transformer or similar 
+  sequential model suited to continuous sensor streams
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing system treats 
+raw multi-axis inertial sensor streams as a primary AI training 
+modality — analogous to how text is the primary modality for 
+language models — for the purpose of teaching AI systems 
+generalised understanding of physical experience.
+
+This document establishes the date of conception and sufficient 
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
