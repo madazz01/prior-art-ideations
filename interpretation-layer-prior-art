@@ -1,0 +1,140 @@
+# The Interpretation Layer
+## AI as the Universal Interpretation Standard, Not the Product
+
+**Date conceived:** 2025 (predates this documentation)
+**Author:** Bryan Robert Horsfield
+**Status:** Prior art declaration — reference implementation exists
+
+---
+
+## Core Concept
+
+AI is not the product. AI is the interpretation layer.
+
+Every technology that changed the world required an interpretation
+layer before it could reach its potential:
+
+- Electricity needed the plug and socket standard
+- The internet needed HTTP
+- Mobile needed the app store protocol
+
+AI needs an interpretation layer — a standard through which
+anything can introduce itself to AI, and through which AI can
+understand anything, reliably and consistently.
+
+The interpretation layer is the infrastructure.
+The AI models are components within it.
+The products built on top are the applications.
+
+---
+
+## What the Interpretation Layer Does
+
+Sits between the world and AI systems. Provides:
+
+- **Standardised introduction** — entities introduce themselves
+  in a format AI instantly understands
+- **Constraint enforcement** — what AI may and may not do
+  with each entity is defined at the layer, not negotiated
+  per-interaction
+- **Forward compatibility** — the layer works with AI systems
+  that don't exist yet because the standard is defined
+  independently of any specific model
+- **Trust and provenance** — the layer carries verification
+  of what an entity claims to be
+
+---
+
+## The Architecture
+
+Physical World / Digital World
+↓
+Constitutional Files (.intro)
+↓
+Interpretation Layer (standard)
+↓
+AI Models (replaceable components)
+↓
+Applications / Agents / Outputs
+
+
+
+The AI model is replaceable. GPT-5 replaces GPT-4.
+Claude replaces an earlier version. Gemini competes with both.
+
+The interpretation layer persists across all model generations
+because it sits underneath them. Entities that have introduced
+themselves correctly work with every future AI system without
+modification.
+
+---
+
+## Key Distinction
+
+Current AI integration model:
+- Each application builds its own AI integration
+- Each integration interprets the world its own way
+- No consistency, no standards, no shared understanding
+
+Interpretation layer model:
+- Entities introduce themselves once via the standard
+- All AI systems read the same introduction
+- Consistent understanding across all models and applications
+
+The difference between every device having its own plug shape
+and a universal socket standard.
+
+---
+
+## Forward Integration
+
+The most important property of the interpretation layer is that
+it enables forward integration — connecting AI to the next
+generation of devices and systems *before they ship*.
+
+A device manufacturer writing a constitutional file today
+is making their device AI-ready for agents that don't exist yet.
+The introduction is written once. It works forever.
+
+This is how the internet was built — HTML pages written in 1995
+still render in 2026 browsers because the standard persisted
+across browser generations.
+
+---
+
+## Physical World Extension
+
+The interpretation layer is not limited to digital entities.
+
+Physical objects, appliances, infrastructure, vehicles,
+industrial equipment — anything can carry a constitutional
+payload via:
+
+- QR code
+- NFC tag
+- RFID
+- Magnetic ink (constitutional ink standard — see separate file)
+- Embedded chip
+
+Scan any object. Receive its introduction. AI knows what it
+is, what it does, what it permits, how to interact with it.
+
+The interpretation layer extends to the entire physical world.
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing architecture
+proposes AI as a universal interpretation layer — sitting between
+the world and AI models as persistent infrastructure — with
+forward integration as a primary design goal and physical world
+extension as an inherent property.
+
+This document establishes the date of conception and sufficient
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
+*Reference implementation: AILattice (ailattice.com) + Intelli-Stasis (intellistasis.com)*
