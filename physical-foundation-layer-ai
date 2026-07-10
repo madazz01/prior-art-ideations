@@ -1,0 +1,171 @@
+# Physical Foundation Layer for AI Base Models
+## Inertial Reality as a Core Training Modality — Collected Once, Inherited Always
+
+**Date conceived:** 2026-07-10  
+**Author:** Bryan Rober Horsfield 
+**Status:** Prior art declaration
+
+---
+
+## Core Concept
+
+Current AI base models are trained primarily on language and vision.
+Physical reality — the inertial, tactile, force-based experience of 
+existing in a physical world — is either absent, approximated 
+mathematically, or bolted on as a separate module after the fact.
+
+This concept proposes collecting real-world inertial experience data 
+once, at scale, and baking it into AI base models as a foundational 
+training layer — equivalent in depth and intent to how language data 
+underlies LLMs.
+
+Every model built on this foundation inherits physical intuition 
+without requiring it to be re-collected, re-trained, or retrofitted.
+
+**Do it once. Every model gets it for free.**
+
+---
+
+## The Problem with Current Approaches
+
+### Mathematical Physics Simulation
+Physics engines approximate reality with equations. The gap between 
+the model and the real world is where failures happen — edge cases, 
+unusual surfaces, unexpected forces, real-world noise and variance 
+that equations don't capture.
+
+### Constitution/Constraint Descriptions
+Describing physical rules in a constitution ("objects have mass", 
+"friction exists") is describing physics, not experiencing it. A 
+model that has read about catching a ball is not the same as a model 
+that has the inertial record of 100,000 catches, drops, and misses.
+
+### Separate Physics Modules
+Bolting a physics module onto an existing AI system creates a 
+consultation layer — the AI has to query physics rather than 
+*know* physics. Adds latency, adds failure modes, adds the gap 
+between the model's reasoning and physical reality.
+
+### The Human Analogy
+Humans don't consult grammar rules when speaking — language 
+intuition is built in through years of immersive exposure.
+Humans don't calculate physics when catching — physical intuition 
+is built in through years of embodied physical experience.
+
+Current AI has the language equivalent. It lacks the physical 
+equivalent entirely.
+
+---
+
+## The Proposed Architecture
+
+### Layer 1 — Physical Foundation Data Collection
+Collect raw multi-axis inertial data at scale across physical 
+domains:
+
+- Flight (fixed wing, rotary, FPV, commercial aviation)
+- Ground vehicles (automotive, motorsport, off-road)
+- Marine (hull dynamics, wave response)
+- Human movement (sport, daily activity, impact, fall)
+- Industrial machinery (vibration, load cycles, wear signatures)
+- Manipulation (robotic and human — grasping, force, compliance)
+- Natural phenomena (wind, water, seismic)
+
+High-frequency IMU logging (1kHz+), multi-sensor fusion, 
+event-labelled, outcome-tagged. Reality as it actually is, 
+not as equations predict it should be.
+
+### Layer 2 — Foundation Model Training
+Train on this physical dataset as a primary modality — the same 
+way language models are trained on text corpora. Not fine-tuning. 
+Not a module. Foundation-level training that builds physical 
+intuition into the base weights.
+
+The model learns:
+- What momentum feels like at different scales
+- What surface contact signatures look like in inertial data
+- What failure, stress, and anomaly feel like vs normal operation
+- How physical systems behave across the full variance of 
+  real-world conditions — not idealised simulations
+
+### Layer 3 — Inheritance
+Every AI system, robotics platform, autonomous vehicle, or 
+embodied agent built on this foundation inherits physical 
+intuition without additional collection or training.
+
+A surgical robot gets physical understanding.  
+A humanoid gets physical understanding.  
+An autonomous vehicle gets physical understanding.  
+All from the same foundational layer, collected once.
+
+---
+
+## Key Distinction — Baked In vs Bolted On
+
+| Approach | Physical Understanding | Gap to Reality |
+|----------|----------------------|----------------|
+| Mathematical simulation | Approximated | Always present |
+| Constitution/constraints | Described | Large |
+| Separate physics module | Consulted | Latency + failure modes |
+| **This system** | **Inherited from foundation** | **Minimal — trained on reality** |
+
+---
+
+## Why Collect It Once
+
+The same physical laws govern all physical domains. Gravity, 
+momentum, friction, compliance, impact — these are universal.
+
+A foundation model trained on sufficient real-world inertial 
+data across domains develops generalised physical intuition 
+that transfers — the same way language models trained on 
+diverse text develop generalised language understanding that 
+transfers across tasks.
+
+Collecting physical training data per-robot, per-application, 
+per-domain is the equivalent of training a new language model 
+for every application. Inefficient, inconsistent, never as 
+good as the foundation approach.
+
+Collect reality once. Distribute physical intuition universally.
+
+---
+
+## Relationship to Inertial Experience Training (see separate file)
+
+The inertial experience training concept (separate file) establishes 
+the modality — IMU data as primary AI training input.
+
+This concept establishes the architecture — that modality should 
+exist at the foundation layer of AI base models, not as an 
+application-layer addition.
+
+Together: collect physical reality at scale → train foundation 
+model → all downstream AI inherits physical intuition.
+
+---
+
+## Prior Art Statement
+
+To the best of the author's knowledge, no existing AI architecture 
+treats real-world inertial experience data as a foundation-layer 
+training modality — equivalent in architectural depth to language 
+pre-training — with the explicit intent that physical intuition 
+be inherited by all downstream models without re-collection.
+
+The distinction between this concept and existing work:
+- Not simulation
+- Not a physics module
+- Not fine-tuning on physical data
+- Not per-application data collection
+
+Foundation-level training on real physical experience data, 
+collected once, inherited always.
+
+This document establishes the date of conception and sufficient 
+technical detail to constitute prior art.
+
+---
+
+*Committed to this repository as timestamped prior art: 2026-07-10*
+*Companion to: inertial-experience-ai-training.md*
