@@ -38,6 +38,18 @@ This fundamentally changes the economics of EV adoption — range anxiety and re
 - Fleet operated and maintained by the platform — members never interact with maintenance
 - B2B fleet extension: corporate memberships for business travel
 
+## Go-To-Market Strategy — Developing World First
+
+The optimal entry point is not the premium market. It is the developing world — specifically SE Asia (Vietnam, Indonesia, Philippines) and similar markets where car ownership is aspirational but financially out of reach for the majority of the population.
+
+**The vehicle:** Low-cost Chinese EVs (e.g. BYD Seagull equivalent, ~$8,000 USD purchase price) enable a membership price point of ~$30/month — affordable at scale in these markets.
+
+**The precedent:** This mirrors the mobile phone adoption pattern in Africa — these markets never had widespread landline infrastructure, so they leapfrogged directly to mobile. Similarly, developing world consumers who have never owned a car can leapfrog directly to the membership model without the psychological attachment to ownership that makes the transition harder in wealthy markets.
+
+**The wedge:** Start with affordable fleets in high-density urban centres (Ho Chi Minh City, Jakarta, Manila). Prove the swap-and-go model. Build the operational infrastructure. Then scale fleet quality and price point upward as you enter wealthier markets.
+
+**Why this beats starting in developed markets:** Lower capital requirement per vehicle, higher population density for swap points, less incumbent ownership culture to overcome, and the Chinese EV supply chain already targets these markets aggressively.
+
 ## Prior Art Note
 
 This concept was originated by Bryan Horsfield. The author states the core idea — card-based non-ownership mobility with zero-downtime swap-and-go and annual upgrade optionality — has been articulated verbally for several years prior to this 2026-08-05 written disclosure. The specific combination of membership card model + zero-downtime swap + personalisation layer + annual upgrade constitutes the novel claim.
