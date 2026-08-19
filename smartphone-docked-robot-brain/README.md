@@ -75,13 +75,29 @@ The fundamental architectural claim: the robot body and the smartphone are each 
 ### 2. Body-Mounted Sensor Arrays Feed Into Phone
 The robot body carries its own sensor arrays — cameras, proximity sensors, environmental sensors — that are independent of the phone's sensors. When docked, the body's sensor feeds are routed to the phone's reasoning layer. The phone gains full environmental awareness from the body's sensors in addition to its own. The combined sensing capability exceeds either system alone.
 
-### 3. Phone-Agnostic Body
+### 3. NFC as the Dock Handshake Protocol
+An NFC tag embedded in the dock serves as the introduction layer between phone and body. The moment the phone is placed in the dock, the NFC tag fires — no pairing, no discovery, no manual configuration.
+
+The NFC tag contains:
+- Body device identity and unique ID
+- Bluetooth MAC address of the servo controller
+- Protocol version
+- Body capability manifest — DOF count, sensor array types, actuator map, power state
+
+The phone reads the tag in milliseconds and knows exactly what body it has just received. It immediately initiates the Bluetooth serial connection using the parameters from the NFC read. The dock handshake is complete before the phone is physically settled in the mount.
+
+NFC handles the introduction. Bluetooth handles the ongoing bidirectional data stream — sensor feeds in, motor commands out — at the bandwidth required for continuous operation.
+
+This is the physical implementation of the introduction layer concept applied to robot bodies. The body introduces itself to the phone the moment contact is made.
+
+### 4. Phone-Agnostic Body
 The robot body does not depend on any specific phone model. Any phone that implements the dock protocol can animate the body. This means:
 
 - The body is a long-lived platform — it outlasts any specific phone generation
 - Upgrading the phone immediately upgrades the robot's intelligence, without changing the body
 - Multiple users could dock their own phones into the same body, each bringing their own context and identity
 - The body could support a basic autonomous standby mode when no phone is docked
+- The NFC tag is the body's permanent identity — readable by any NFC-capable phone
 
 ### 4. Context Continuity — The Robot Inherits the Day
 When the phone is docked, the robot immediately inherits everything the phone knows: the day's conversations, location history, environmental observations, task state, learned preferences, ongoing intentions. The robot does not initialise cold.
@@ -161,6 +177,8 @@ This concept was conceived and articulated on 2026-08-19 and committed to this p
 - A robot body designed as a complete sensor and actuation platform with no embedded intelligence
 - A consumer smartphone as the sole reasoning and intelligence layer for a robot body
 - A dock as the interface protocol between a standalone intelligent phone and a standalone capable robot body
+- NFC tag embedded in dock as the handshake and introduction layer — body capability manifest delivered to phone at contact
+- NFC for initial handshake + Bluetooth for ongoing bidirectional data stream as a combined dock communication architecture
 - Context continuity — the robot inheriting accumulated personal assistant context upon docking
 - Dual-mode operation of a single consumer device as both personal assistant and robot brain
 - Phone-agnostic robot body architecture
